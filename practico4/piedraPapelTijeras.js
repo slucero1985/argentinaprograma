@@ -64,9 +64,11 @@ function rondasDeJuego() {
       puntajeUsuario++
     }
   }
+  console.log(puntajeComputador);
+console.log(puntajeUsuario);
   if (puntajeComputador > puntajeUsuario) {
-    return "Juego ganado por la Computadora";
-  } else if (puntajeComputador = puntajeUsuario) {
+    return "Juego ganado por el Computador";
+  } else if (puntajeComputador === puntajeUsuario) {
     return "Juego empatado";
   } else return "juego ganado por el Usuario";
 }
